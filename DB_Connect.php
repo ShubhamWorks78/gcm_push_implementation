@@ -34,7 +34,7 @@ class DB_Connect
         return $con;
     }
 
-    public function clpse(){
+    public function close(){
         mysql_close();
     }
 
